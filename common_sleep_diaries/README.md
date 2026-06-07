@@ -14,18 +14,18 @@ If your system returns different `reproducibility_information`, you can see whet
 
 ## Available datasets
 
-- [person with no interesting sleep issues](simple.csv) ([view source](https://github.com/sleepdiary/resources/blob/main/common_sleep_diaries/simple.csv))
-- [person who sets an alarm for 7am on weekdays](weekday_alarm.csv) ([view source](https://github.com/sleepdiary/resources/blob/main/common_sleep_diaries/weekday_alarm.csv))
-- [person who has Delayed Sleep Phase Disorder](dspd.csv) ([view source](https://github.com/sleepdiary/resources/blob/main/common_sleep_diaries/dspd.csv))
-- [person who has Non-24 Sleep-Wake Disorder](non24.csv) ([view source](https://github.com/sleepdiary/resources/blob/main/common_sleep_diaries/non24.csv))
+- [person with no interesting sleep issues](simple.csv) ([view source](https://github.com/zeitdex/resources/blob/main/common_sleep_diaries/simple.csv))
+- [person who sets an alarm for 7am on weekdays](weekday_alarm.csv) ([view source](https://github.com/zeitdex/resources/blob/main/common_sleep_diaries/weekday_alarm.csv))
+- [person who has Delayed Sleep Phase Disorder](dspd.csv) ([view source](https://github.com/zeitdex/resources/blob/main/common_sleep_diaries/dspd.csv))
+- [person who has Non-24 Sleep-Wake Disorder](non24.csv) ([view source](https://github.com/zeitdex/resources/blob/main/common_sleep_diaries/non24.csv))
 
 These datasets only provide a basic resemblance to each condition, and are primarily intended for use in testing new software.  See also [the machine-readable list of datasets](../common_sleep_diaries.json).
 
 ## Available software
 
-- [a library to generate datasets](common_sleep_diaries.py) ([view source](https://github.com/sleepdiary/resources/blob/main/common_sleep_diaries/common_sleep_diaries.py))
-- [an example program using the library](example.py) ([view source](https://github.com/sleepdiary/resources/blob/main/common_sleep_diaries/example.py))
-- [the program used to generate the datasets above](generate.py) ([view source](https://github.com/sleepdiary/resources/blob/main/common_sleep_diaries/generate.py))
+- [a library to generate datasets](common_sleep_diaries.py) ([view source](https://github.com/zeitdex/resources/blob/main/common_sleep_diaries/common_sleep_diaries.py))
+- [an example program using the library](example.py) ([view source](https://github.com/zeitdex/resources/blob/main/common_sleep_diaries/example.py))
+- [the program used to generate the datasets above](generate.py) ([view source](https://github.com/zeitdex/resources/blob/main/common_sleep_diaries/generate.py))
 
 ## License
 
@@ -37,12 +37,12 @@ These datasets only provide a basic resemblance to each condition, and are prima
   <br />
   To the extent possible under law,
   <a rel="dct:publisher"
-     href="https://sleepdiary.github.io/resources/">
+     href="https://zeitdex.github.io/resources/">
     <span property="dct:title">Sleep Diary Authors</span></a>
   has waived all copyright and related or neighboring rights to
   <span property="dct:title">Sleep Diary Resources</span>.
 This work is published from:
 <span property="vcard:Country" datatype="dct:ISO3166"
-      content="GB" about="https://sleepdiary.github.io/resources/">
+      content="GB" about="https://zeitdex.github.io/resources/">
   United Kingdom</span>.
 </p>

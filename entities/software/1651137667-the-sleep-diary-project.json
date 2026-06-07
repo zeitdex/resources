@@ -7,7 +7,7 @@
   "platforms": [
     "website"
   ],
-  "procedure": "* [examine your diary through the dashboard](/dashboard)\n* [read this documentation](/docs)\n* [use the software library](/core)\n",
+  "procedure": "* [examine your diary through the dashboard](https://zeitlog.github.io/)\n* [read this documentation](https://zeitdex.github.io/docs/)\n* [use the software library](https://zeitlog.github.io/core/)\n",
   "reports": [
     {
       "events": [
@@ -81,10 +81,10 @@
       "start_time": "6pm",
       "thumb": "/resources/thumbs/The Sleep Diary Project/Report for doctors/simple.jpg",
       "total_pages": "variable",
-      "url": "https://sleepdiary.github.io/report/"
+      "url": "https://zeitlog.github.io/report/"
     }
   ],
-  "dev_url": "https://github.com/sleepdiary/",
+  "dev_url": "https://github.com/zeitlog/",
   "thumb": "/resources/thumbs/The Sleep Diary Project.jpg",
-  "url": "https://sleepdiary.github.io/"
+  "url": "https://zeitdex.github.io/"
 }
