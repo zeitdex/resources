@@ -6,11 +6,11 @@ The project itself builds [`entities.json`](../entities.json) from files hosted 
 
 ## Common features
 
-All versions of [`entities.json`](../entities.json) contain a single root object with a `format` key that uniquely identifies the file format.  The associated value MUST begin with `https://sleepdiary.github.io/resources/entities#`, followed by an arbitrary string.  All versions of the format so far use [semantic versioning](https://semver.org/), but implementations should not depend on this behaviour.  Instead, implementations that handle more than one version should check the format string against a list of known values.
+All versions of [`entities.json`](../entities.json) contain a single root object with a `format` key that uniquely identifies the file format.  The associated value MUST begin with `https://zeitdex.github.io/resources/entities#`, followed by an arbitrary string.  All versions of the format so far use [semantic versioning](https://semver.org/), but implementations should not depend on this behaviour.  Instead, implementations that handle more than one version should check the format string against a list of known values.
 
 ## Version 0.0.2
 
-Format string: `https://sleepdiary.github.io/resources/entities#version-002`
+Format string: `https://zeitdex.github.io/resources/entities#version-002`
 
 Contains the following top-level sections:
 
@@ -198,6 +198,6 @@ Some values are hard to sort correctly.  For example, most algorithms will not s
 
 This version is the same as `0.0.2`, except for the following:
 
-- the format string was `https://sleepdiary.github.io/resources/entities#version-001`
+- the format string was `https://zeitdex.github.io/resources/entities#version-001`
 - the `software` section had not been documented yet, and had some minor differences
 - the `forms` and `reports` sections did not support `modifiers`

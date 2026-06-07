@@ -5,8 +5,8 @@
 A JSON file containing information about sleep-related entities (e.g. sleep specialists), generated from a collection of files.
 
 - [Get the JSON file](entities.json)
-- [View the raw specialist data](https://github.com/sleepdiary/resources/blob/main/entities/specialist)
-- [View the raw software data](https://github.com/sleepdiary/resources/blob/main/entities/software)
+- [View the raw specialist data](https://github.com/zeitdex/resources/blob/main/entities/specialist)
+- [View the raw software data](https://github.com/zeitdex/resources/blob/main/entities/software)
 
 Please see [the specification](entities) for more information about the contents of [entities.json](entities.json).
 
@@ -31,12 +31,12 @@ Computer-generated datasets for use in sleep diary applications, generated in Py
   <br />
   To the extent possible under law,
   <a rel="dct:publisher"
-     href="https://sleepdiary.github.io/resources/">
+     href="https://zeitdex.github.io/resources/">
     <span property="dct:title">Sleep Diary Authors</span></a>
   has waived all copyright and related or neighboring rights to
   <span property="dct:title">Sleep Diary Resources</span>.
 This work is published from:
 <span property="vcard:Country" datatype="dct:ISO3166"
-      content="GB" about="https://sleepdiary.github.io/resources/">
+      content="GB" about="https://zeitdex.github.io/resources/">
   United Kingdom</span>.
 </p>
