@@ -1,42 +1,48 @@
-# Sleep resources
+# Zeitdex resources
+
+The community-maintained **data** behind the [Zeitdex](https://zeitdex.github.io/) specialist and software directories. A fork of [sleepdiary/resources](https://github.com/sleepdiary/resources).
 
 ## Entities
 
-A JSON file containing information about sleep-related entities (e.g. sleep specialists), generated from a collection of files.
+`entities.json` is compiled from individual JSON files and drives the [specialist directory](https://zeitdex.github.io/find-a-specialist/) and [software directory](https://zeitdex.github.io/create/software/) on the Zeitdex site.
 
-- [Get the JSON file](entities.json)
-- [View the raw specialist data](https://github.com/zeitdex/resources/blob/main/entities/specialist)
-- [View the raw software data](https://github.com/zeitdex/resources/blob/main/entities/software)
+- [Get the JSON file](entities.json) (built on the `built` branch)
+- [Raw specialist data](https://github.com/zeitdex/resources/blob/main/entities/specialist)
+- [Raw software data](https://github.com/zeitdex/resources/blob/main/entities/software)
 
-Please see [the specification](entities) for more information about the contents of [entities.json](entities.json).
+To add an entry, use the issue templates or add a JSON file — the directories regenerate on the next Zeitdex build.
 
 ### See also
 
-- [The Consensus Sleep Diary](https://academic.oup.com/sleep/article/35/2/287/2558899) is a questionnaire-style diary based on work by many researchers
-- [The Circadian Sleep Disorders Network's list of doctors](https://www.circadiansleepdisorders.org/doctors.php) includes many specialists who do not yet have an entry here
+- [The Consensus Sleep Diary](https://academic.oup.com/sleep/article/35/2/287/2558899) — a questionnaire-style diary based on work by many researchers
+- [The Circadian Sleep Disorders Network's list of doctors](https://www.circadiansleepdisorders.org/doctors.php) — includes many specialists who do not yet have an entry here
 
-## Common sleep diaries
+## Project map
 
-Computer-generated datasets for use in sleep diary applications, generated in Python.
+Zeitlog (the tracker) and Zeitdex (docs & resources) for circadian rhythm disorders span a few repos across two GitHub orgs and one account:
 
-- [See the datasets](./common_sleep_diaries/)
+**Zeitlog — tracker** · [@zeitlog](https://github.com/zeitlog) · <https://zeitlog.github.io/>
 
-## License
+| Repo | Role |
+|---|---|
+| [zeitlog.github.io](https://github.com/zeitlog/zeitlog.github.io) | The tracker web app |
+| [core](https://github.com/zeitlog/core) | Sleep-diary format engines (parsing) |
+| [report](https://github.com/zeitlog/report) | Sleep-doctor report bundle |
+| [info](https://github.com/zeitlog/info) | Analysis & charts bundle |
 
-<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
-  <a rel="license"
-     href="http://creativecommons.org/publicdomain/zero/1.0/">
-    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
-  </a>
-  <br />
-  To the extent possible under law,
-  <a rel="dct:publisher"
-     href="https://zeitdex.github.io/resources/">
-    <span property="dct:title">Sleep Diary Authors</span></a>
-  has waived all copyright and related or neighboring rights to
-  <span property="dct:title">Sleep Diary Resources</span>.
-This work is published from:
-<span property="vcard:Country" datatype="dct:ISO3166"
-      content="GB" about="https://zeitdex.github.io/resources/">
-  United Kingdom</span>.
-</p>
+**Zeitdex — docs & resources** · [@zeitdex](https://github.com/zeitdex) · <https://zeitdex.github.io/>
+
+| Repo | Role |
+|---|---|
+| [zeitdex.github.io](https://github.com/zeitdex/zeitdex.github.io) | Docs & resources site (MkDocs) |
+| [docs](https://github.com/zeitdex/docs) | Documentation source |
+| [resources](https://github.com/zeitdex/resources) | Specialist & software directory data |
+
+**Pre-production** · [@wellivea1](https://github.com/wellivea1)
+
+| Repo | Role |
+|---|---|
+| [dashboard-vibecode](https://github.com/wellivea1/dashboard-vibecode) | Pre-prod tracker · <https://wellivea1.github.io/dashboard-vibecode/> |
+| [core-vibecode](https://github.com/wellivea1/core-vibecode) | Pre-prod core |
+
+Forked from the [Sleep Diary Project](https://github.com/sleepdiary).
